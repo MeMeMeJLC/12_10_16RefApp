@@ -43,7 +43,7 @@ namespace _12_10_16_production_ref_portal_api.Migrations
                 );
 
             context.GameTeams.AddOrUpdate(
-                p => p.GameId,
+                p => p.TeamId,
                 new GameTeam { GameId = 1, TeamId = 1},
                 new GameTeam { GameId = 1, TeamId = 2},
                 new GameTeam { GameId = 2, TeamId = 3 },
@@ -53,7 +53,7 @@ namespace _12_10_16_production_ref_portal_api.Migrations
             context.Players.AddOrUpdate(
                p => p.LastName,
                new Player { FirstName = "Jeremy", LastName = "Wright", TeamId = 1},
-               new Player { FirstName = "Bill", LastName = "Franks", TeamId = 1 },
+               new Player { FirstName = "Bill", LastName = "Ranks", TeamId = 1 },
                new Player { FirstName = "Fred", LastName = "Wilson", TeamId = 1 },
                new Player { FirstName = "Mike", LastName = "Marlowe", TeamId = 1 },
                new Player { FirstName = "Bob", LastName = "Carter", TeamId = 1 },
