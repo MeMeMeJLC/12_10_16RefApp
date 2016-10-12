@@ -5,13 +5,13 @@ using System.Web;
 
 namespace _12_10_16_production_ref_portal_api.Models
 {
-    public class GameTeam
+    public class Team
     {
         public int Id { get; set; }
-        public int GameId { get; set; }
-        public int TeamId { get; set; }
+        public string Name { get; set; }
+        public string Colour { get; set; }
 
-        public Game Game { get; set; }
-        public Team Team { get; set; }
+        public ICollection<GameTeam> GameTeams { get; set; }
+
     }
 }
