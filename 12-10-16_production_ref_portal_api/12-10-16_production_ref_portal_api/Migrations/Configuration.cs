@@ -75,6 +75,24 @@ namespace _12_10_16_production_ref_portal_api.Migrations
                new Player { FirstName = "Dim", LastName = "Dith", TeamId = 4 }
                 );
 
+            context.GamePlayers.AddOrUpdate(
+                p => p.PlayerId,
+                new GamePlayer { PlayerId = 1, GameId = 1, IsCaptain = true},
+                new GamePlayer { PlayerId = 2, GameId = 1},
+                new GamePlayer { PlayerId = 3, GameId = 1},
+                new GamePlayer { PlayerId = 8, GameId = 2, IsCaptain = true },
+                new GamePlayer { PlayerId = 9, GameId = 2 },
+                new GamePlayer { PlayerId = 10, GameId = 2 }
+                );
+
+            context.PenaltyTypes.AddOrUpdate(
+                p => p.Code,
+                new PenaltyType { Code = "y1", Description = "Unsporting behaviour"},
+                new PenaltyType { Code = "r1", Description = "Violent conduct"}
+                );
+
+           
+
             
             
         }

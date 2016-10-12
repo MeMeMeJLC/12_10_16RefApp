@@ -13,6 +13,5 @@ namespace _12_10_16_production_ref_portal_api.Models
 
         public Game Game { get; set; }
         public Team Team { get; set; }
-        public ICollection<Player> Players { get; set; }
     }
 }

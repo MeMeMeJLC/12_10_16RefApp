@@ -245,8 +245,11 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\GamePlayerController.cs" />
     <Compile Include="Controllers\GameTeamController.cs" />
+    <Compile Include="Controllers\GoalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PenaltyTypeController.cs" />
     <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\TeamController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -273,12 +276,35 @@
     <Compile Include="Migrations\201610120648076_player.Designer.cs">
       <DependentUpon>201610120648076_player.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610121047319_gameplayer.cs" />
+    <Compile Include="Migrations\201610121047319_gameplayer.Designer.cs">
+      <DependentUpon>201610121047319_gameplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610121050181_gameplayer1.cs" />
+    <Compile Include="Migrations\201610121050181_gameplayer1.Designer.cs">
+      <DependentUpon>201610121050181_gameplayer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610121112222_penaltytypes.cs" />
+    <Compile Include="Migrations\201610121112222_penaltytypes.Designer.cs">
+      <DependentUpon>201610121112222_penaltytypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610121124407_goals.cs" />
+    <Compile Include="Migrations\201610121124407_goals.Designer.cs">
+      <DependentUpon>201610121124407_goals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610121126317_goals1.cs" />
+    <Compile Include="Migrations\201610121126317_goals1.Designer.cs">
+      <DependentUpon>201610121126317_goals1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\GamePlayer.cs" />
     <Compile Include="Models\GameTeam.cs" />
+    <Compile Include="Models\Goal.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\PenaltyType.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\_12_10_16_production_ref_portal_apiContext.cs" />
@@ -367,6 +393,16 @@
     <Content Include="Views\Player\Details.cshtml" />
     <Content Include="Views\Player\Edit.cshtml" />
     <Content Include="Views\Player\Index.cshtml" />
+    <Content Include="Views\GamePlayer\Create.cshtml" />
+    <Content Include="Views\GamePlayer\Delete.cshtml" />
+    <Content Include="Views\GamePlayer\Details.cshtml" />
+    <Content Include="Views\GamePlayer\Edit.cshtml" />
+    <Content Include="Views\GamePlayer\Index.cshtml" />
+    <Content Include="Views\PenaltyType\Create.cshtml" />
+    <Content Include="Views\PenaltyType\Delete.cshtml" />
+    <Content Include="Views\PenaltyType\Details.cshtml" />
+    <Content Include="Views\PenaltyType\Edit.cshtml" />
+    <Content Include="Views\PenaltyType\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -397,6 +433,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610120648076_player.resx">
       <DependentUpon>201610120648076_player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121047319_gameplayer.resx">
+      <DependentUpon>201610121047319_gameplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121050181_gameplayer1.resx">
+      <DependentUpon>201610121050181_gameplayer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121112222_penaltytypes.resx">
+      <DependentUpon>201610121112222_penaltytypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121124407_goals.resx">
+      <DependentUpon>201610121124407_goals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121126317_goals1.resx">
+      <DependentUpon>201610121126317_goals1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

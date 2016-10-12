@@ -14,5 +14,6 @@ namespace _12_10_16_production_ref_portal_api.Models
         public DateTime GameDateTime { get; set; }
 
         public virtual ICollection<GameTeam> GameTeams { get; set; }
+        public virtual ICollection<GamePlayer> GamePlayers { get; set; }
     }
 }
