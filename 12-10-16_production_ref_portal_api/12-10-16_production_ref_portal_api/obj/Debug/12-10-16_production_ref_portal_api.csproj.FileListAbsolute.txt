@@ -90,3 +90,8 @@ D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_po
 D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\12-10-16_production_ref_portal_api.csprojResolveAssemblyReference.cache
 D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\12-10-16_production_ref_portal_api.dll
 D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\12-10-16_production_ref_portal_api.pdb
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.InitialCreate.resources
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\12-10-16_production_ref_portal_api.csproj.GenerateResource.Cache
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.games.resources
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.teams.resources
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.gameteams.resources
