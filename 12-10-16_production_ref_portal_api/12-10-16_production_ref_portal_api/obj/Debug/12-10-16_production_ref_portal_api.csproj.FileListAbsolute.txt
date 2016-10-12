@@ -101,3 +101,7 @@ D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_po
 D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.penaltytypes.resources
 D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.goals.resources
 D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.goals1.resources
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.penalty.resources
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.penalty1.resources
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.substitution.resources
+D:\VS2015 projects\12-10-16_production_ref_portal_api\12-10-16_production_ref_portal_api\obj\Debug\_12_10_16_production_ref_portal_api.Migrations.substitution1.resources

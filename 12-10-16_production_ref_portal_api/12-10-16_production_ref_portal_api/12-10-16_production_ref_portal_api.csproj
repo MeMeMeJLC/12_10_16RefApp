@@ -244,13 +244,18 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GameAPIController.cs" />
     <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\GamePlayerAPIController.cs" />
     <Compile Include="Controllers\GamePlayerController.cs" />
+    <Compile Include="Controllers\GameTeamAPIController.cs" />
     <Compile Include="Controllers\GameTeamController.cs" />
     <Compile Include="Controllers\GoalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PenaltyController.cs" />
     <Compile Include="Controllers\PenaltyTypeController.cs" />
     <Compile Include="Controllers\PlayerController.cs" />
+    <Compile Include="Controllers\SubstitutionController.cs" />
     <Compile Include="Controllers\TeamController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -296,6 +301,22 @@
     <Compile Include="Migrations\201610121126317_goals1.Designer.cs">
       <DependentUpon>201610121126317_goals1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610121131583_penalty.cs" />
+    <Compile Include="Migrations\201610121131583_penalty.Designer.cs">
+      <DependentUpon>201610121131583_penalty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610121133564_penalty1.cs" />
+    <Compile Include="Migrations\201610121133564_penalty1.Designer.cs">
+      <DependentUpon>201610121133564_penalty1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610121147263_substitution.cs" />
+    <Compile Include="Migrations\201610121147263_substitution.Designer.cs">
+      <DependentUpon>201610121147263_substitution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610121150585_substitution1.cs" />
+    <Compile Include="Migrations\201610121150585_substitution1.Designer.cs">
+      <DependentUpon>201610121150585_substitution1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -304,8 +325,10 @@
     <Compile Include="Models\GameTeam.cs" />
     <Compile Include="Models\Goal.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Penalty.cs" />
     <Compile Include="Models\PenaltyType.cs" />
     <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Substitution.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\_12_10_16_production_ref_portal_apiContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -448,6 +471,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610121126317_goals1.resx">
       <DependentUpon>201610121126317_goals1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121131583_penalty.resx">
+      <DependentUpon>201610121131583_penalty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121133564_penalty1.resx">
+      <DependentUpon>201610121133564_penalty1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121147263_substitution.resx">
+      <DependentUpon>201610121147263_substitution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610121150585_substitution1.resx">
+      <DependentUpon>201610121150585_substitution1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
