@@ -24,5 +24,7 @@ namespace _12_10_16_production_ref_portal_api.Models
         public System.Data.Entity.DbSet<_12_10_16_production_ref_portal_api.Models.Team> Teams { get; set; }
 
         public System.Data.Entity.DbSet<_12_10_16_production_ref_portal_api.Models.GameTeam> GameTeams { get; set; }
+
+        public System.Data.Entity.DbSet<_12_10_16_production_ref_portal_api.Models.Player> Players { get; set; }
     }
 }

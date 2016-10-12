@@ -12,6 +12,7 @@ namespace _12_10_16_production_ref_portal_api.Models
         public string Colour { get; set; }
 
         public ICollection<GameTeam> GameTeams { get; set; }
+        public ICollection<Player> Players { get; set; }
 
     }
 }

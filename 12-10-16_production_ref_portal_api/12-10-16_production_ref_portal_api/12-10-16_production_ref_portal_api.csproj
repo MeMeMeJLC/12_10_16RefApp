@@ -247,6 +247,7 @@
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\GameTeamController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\TeamController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -268,12 +269,17 @@
     <Compile Include="Migrations\201610120617263_gameteams.Designer.cs">
       <DependentUpon>201610120617263_gameteams.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610120631516_player.cs" />
+    <Compile Include="Migrations\201610120631516_player.Designer.cs">
+      <DependentUpon>201610120631516_player.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Game.cs" />
     <Compile Include="Models\GameTeam.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Team.cs" />
     <Compile Include="Models\_12_10_16_production_ref_portal_apiContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -356,6 +362,11 @@
     <Content Include="Views\GameTeam\Details.cshtml" />
     <Content Include="Views\GameTeam\Edit.cshtml" />
     <Content Include="Views\GameTeam\Index.cshtml" />
+    <Content Include="Views\Player\Create.cshtml" />
+    <Content Include="Views\Player\Delete.cshtml" />
+    <Content Include="Views\Player\Details.cshtml" />
+    <Content Include="Views\Player\Edit.cshtml" />
+    <Content Include="Views\Player\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -383,6 +394,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610120617263_gameteams.resx">
       <DependentUpon>201610120617263_gameteams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610120631516_player.resx">
+      <DependentUpon>201610120631516_player.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

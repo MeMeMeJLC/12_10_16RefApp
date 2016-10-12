@@ -49,6 +49,33 @@ namespace _12_10_16_production_ref_portal_api.Migrations
                 new GameTeam { GameId = 2, TeamId = 3 },
                 new GameTeam { GameId = 2, TeamId = 4 }
                 );
+
+            context.Players.AddOrUpdate(
+               p => p.LastName,
+               new Player { FirstName = "Jeremy", LastName = "Wright", TeamId = 1},
+               new Player { FirstName = "Bill", LastName = "Franks", TeamId = 1 },
+               new Player { FirstName = "Fred", LastName = "Wilson", TeamId = 1 },
+               new Player { FirstName = "Mike", LastName = "Marlowe", TeamId = 1 },
+               new Player { FirstName = "Bob", LastName = "Carter", TeamId = 1 },
+               new Player { FirstName = "Jeff", LastName = "Walker", TeamId = 1 },
+               new Player { FirstName = "Steve", LastName = "Bone", TeamId = 2 },
+               new Player { FirstName = "Gil", LastName = "Sutton", TeamId = 2 },
+               new Player { FirstName = "Sam", LastName = "Gilmore", TeamId = 2 },
+               new Player { FirstName = "Andy", LastName = "Luigi", TeamId = 2 },
+               new Player { FirstName = "Jon", LastName = "Berg", TeamId = 2 },
+               new Player { FirstName = "Stephen", LastName = "Williams", TeamId = 3 },
+               new Player { FirstName = "Mark", LastName = "Lower", TeamId = 3 },
+               new Player { FirstName = "Luke", LastName = "Magon", TeamId = 3 },
+               new Player { FirstName = "Rob", LastName = "Franks", TeamId = 3 },
+               new Player { FirstName = "Will", LastName = "Starr", TeamId = 3 },
+               new Player { FirstName = "Phil", LastName = "Jones", TeamId = 3 },
+               new Player { FirstName = "David", LastName = "davids", TeamId = 4 },
+               new Player { FirstName = "Tim", LastName = "lennon", TeamId = 4 },
+               new Player { FirstName = "Ravid", LastName = "Ravids", TeamId = 4 },
+               new Player { FirstName = "Dim", LastName = "Dith", TeamId = 4 }
+                );
+
+            
             
         }
     }
