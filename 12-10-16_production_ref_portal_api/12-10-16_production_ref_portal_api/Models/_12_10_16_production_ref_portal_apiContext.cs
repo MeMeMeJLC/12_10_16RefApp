@@ -39,9 +39,5 @@ namespace _12_10_16_production_ref_portal_api.Models
         public System.Data.Entity.DbSet<_12_10_16_production_ref_portal_api.Models.PenaltyType> PenaltyTypes { get; set; }
 
         public System.Data.Entity.DbSet<_12_10_16_production_ref_portal_api.Models.Goal> Goals { get; set; }
-
-        public System.Data.Entity.DbSet<_12_10_16_production_ref_portal_api.Models.Penalty> Penalties { get; set; }
-
-        public System.Data.Entity.DbSet<_12_10_16_production_ref_portal_api.Models.Substitution> Substitutions { get; set; }
     }
 }

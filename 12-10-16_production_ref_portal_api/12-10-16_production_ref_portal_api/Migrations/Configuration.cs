@@ -91,17 +91,6 @@ namespace _12_10_16_production_ref_portal_api.Migrations
                 new PenaltyType { Code = "r1", Description = "Violent conduct"}
                 );
 
-            context.Penalties.AddOrUpdate(
-                p => p.GamePlayerId,
-                new Penalty { GamePlayerId = 1, PenaltyTypeId = 1, PenaltyTime = new TimeSpan(0,25,42)},
-                new Penalty { GamePlayerId = 3, PenaltyTypeId = 2, PenaltyTime = new TimeSpan(0,44,10)}
-                );
-
-            context.Substitutions.AddOrUpdate(
-                p => p.GoingOffTheFieldId,
-                new Substitution { GoingOffTheFieldId = 1, GoingOnTheFieldId = 2, SubstitutionTime = new TimeSpan(0,38,28)},
-                new Substitution { GoingOffTheFieldId = 2, GoingOnTheFieldId = 3, SubstitutionTime = new TimeSpan(0,55,58)}
-                );
            
 
             
