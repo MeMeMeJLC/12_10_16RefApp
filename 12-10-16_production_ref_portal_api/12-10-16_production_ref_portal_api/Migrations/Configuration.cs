@@ -87,7 +87,11 @@ namespace _12_10_16_production_ref_portal_api.Migrations
 
             context.Goals.AddOrUpdate(
                 p => p.GamePlayerId,
-                new Goal { GamePlayerId = 1, GoalTime = new TimeSpan(0,25,24)}
+                new Goal { GamePlayerId = 1, GoalTime = new TimeSpan(0,25,24)},
+                new Goal { GamePlayerId = 2, GoalTime = new TimeSpan(0, 45, 24) },
+                new Goal { GamePlayerId = 6, GoalTime = new TimeSpan(0, 55, 24) }
+
+
                 );
 
             context.PenaltyTypes.AddOrUpdate(
